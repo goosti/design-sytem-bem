@@ -1,0 +1,246 @@
+h2 {
+  color: green;
+}
+
+.card {
+  width: 320px;
+  padding: 1rem;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+.card__header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+.card__avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.card__avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.card__image {
+  width: 100%;
+  height: 180px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.card__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.card__body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.card__title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #222;
+}
+.card__description {
+  font-size: 0.95rem;
+  color: #666;
+  line-height: 1.4;
+}
+.card__footer {
+  margin-top: auto;
+  padding-top: 0.75rem;
+  border-top: 1px solid #e0e0e0;
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.card__header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.card__icon {
+  width: 55px;
+  height: 55px;
+  object-fit: contain;
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  font-size: 1rem;
+  color: #333;
+  background-color: white;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.button:hover {
+  opacity: 0.7;
+}
+.button:focus {
+  outline: 2px solid #007bff;
+  outline-offset: 2px;
+}
+.button--primary {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+.button--primary:hover {
+  opacity: 0.7;
+}
+.button--secondary {
+  background-color: #6c757d;
+  color: white;
+  border-color: #6c757d;
+}
+.button--secondary:hover {
+  opacity: 0.7;
+}
+.button--danger {
+  background-color: #dc3545;
+  color: white;
+  border-color: #dc3545;
+}
+.button--danger:hover {
+  opacity: 0.7;
+}
+.button--small {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+}
+.button--small .button__icon {
+  font-size: 0.75rem;
+}
+.button--large {
+  padding: 0.75rem 1.5rem;
+  font-size: 1.25rem;
+}
+.button--large .button__icon {
+  font-size: 1.5rem;
+}
+
+.header {
+  background-color: #007bff;
+}
+
+.nav {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__logo {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+.nav__links {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.hero {
+  padding: 4rem 1rem;
+  text-align: center;
+}
+.hero__title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.hero__text {
+  max-width: 600px;
+  margin: 0 auto 2rem;
+  color: #333;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.skills {
+  padding: 3rem 1rem;
+}
+.skills__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.projects {
+  padding: 3rem 1rem;
+}
+.projects__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+.projects__badge {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.75rem;
+  border-radius: 12px;
+  color: white;
+}
+.projects__badge--done {
+  background-color: #28a745;
+}
+.projects__badge--progress {
+  background-color: #dc3545;
+}
+
+.footer {
+  padding: 2rem 1rem;
+  text-align: center;
+  border-top: 1px solid #ccc;
+}
+.footer__socials {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+.portfolio-link {
+  text-align: center;
+  margin: 4rem 0;
+}
+.portfolio-link a {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #000;
+  text-decoration: none;
+}
+.portfolio-link a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  color: red;
+}
+
+/*# sourceMappingURL=style.css.map */

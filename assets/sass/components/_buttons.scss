@@ -1,0 +1,71 @@
+@use '../variable' as *;
+
+.button {
+    padding: $button-padding;
+    border: 1px solid $border-color;
+    border-radius: $button-border-radius;
+    cursor: pointer;
+    font-size: $button-font-size;
+    color: $text-color;
+    background-color: white;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    &:hover {
+    opacity: 0.7;
+    }
+
+    &:focus {
+    outline: 2px solid $primary-color;
+    outline-offset: 2px;
+    }
+
+    &--primary {
+    background-color: $primary-color;
+    color: white;
+    border-color: $primary-color;
+
+    &:hover {
+        opacity: 0.7;
+    }
+    }
+
+    &--secondary {
+    background-color: $secondary-color;
+    color: white;
+    border-color: $secondary-color;
+
+    &:hover {
+        opacity: 0.7;
+    }
+    }
+
+    &--danger {
+    background-color: $danger-color;
+    color: white;
+    border-color: $danger-color;
+
+    &:hover {
+        opacity: 0.7;
+    }
+    }
+
+    &--small {
+    padding: $button-small-padding;
+    font-size: $button-small-font-size;
+
+    .button__icon {
+        font-size: 0.75rem;
+    }
+    }
+
+    &--large {
+    padding: $button-large-padding;
+    font-size: $button-large-font-size;
+
+    .button__icon {
+        font-size: 1.5rem;
+    }
+    }
+}
