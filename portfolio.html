@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <title>Portfolio – John Doe</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+<body>
+
+
+    <header class="header">
+    <nav class="nav">
+        <a href="#" class="nav__logo">MonPortfolio</a>
+        <a href="index.html">Mes composants</a>
+
+        <ul class="nav__links">
+            <li><a href="#hero">Accueil</a></li>
+            <li><a href="#skills">Compétences</a></li>
+            <li><a href="#projects">Projets</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    </header>
+
+
+    <section id="hero" class="hero">
+    <h1 class="hero__title">Développeur Front-End</h1>
+    <p class="hero__text">
+        Je conçois des interfaces modernes, accessibles et performantes.
+    </p>
+
+    <button class="button button--primary button--large">
+        <a href="#contact">Me contacter</a>
+    </button>
+    </section>
+
+
+    <section id="skills" class="skills">
+    <h2 class="section-title">Compétences</h2>
+
+    <div class="skills__grid">
+    <div class="card">
+        <div class="card__body">
+
+        <div class="card__header">
+            <img src="html.png" alt="Logo de HTML" class="card__icon">
+            <h3 class="card__title">HTML</h3>
+        </div>
+
+        <p class="card__description">
+            Structure sémantique et accéssible
+        </p>
+
+        </div>
+    </div>
+
+<div class="card">
+    <div class="card__body">
+
+    <div class="card__header">
+        <img src="css.png" alt="Logo de CSS" class="card__icon">
+        <h3 class="card__title">CSS / SCSS</h3>
+    </div>
+
+    <p class="card__description">
+        BEM, responsive, animations
+    </p>
+
+    </div>
+</div>
+
+
+    <div class="card">
+        <div class="card__body">
+
+        <div class="card__header">
+            <img src="js.webp" alt="Logo de JavaScript" class="card__icon">
+            <h3 class="card__title">JavaScript</h3>
+        </div>
+
+        <p class="card__description">
+            Interactions et logique front
+        </p>
+
+        </div>
+    </div>
+    </section>
+
+
+    <section id="projects" class="projects">
+    <h2 class="section-title">Projets</h2>
+
+    <div class="projects__grid">
+        <div class="card">
+        <div class="card__body">
+            <h3 class="card__title">Portfolio</h3>
+            <p class="card__description">
+            Site personnel responsive
+            </p>
+
+            <img src="image.jpg" alt="Image de Code">
+
+            <span class="projects__badge projects__badge--done">
+            Terminé
+            </span>
+        </div>
+
+        <div class="card__footer">
+            <button class="button button--secondary button--small">
+            Voir le projet
+            </button>
+        </div>
+        </div>
+
+        <div class="card">
+        <div class="card__body">
+            <h3 class="card__title">Application JS</h3>
+            <p class="card__description">
+            Projet en cours de développement
+            </p>
+
+            <img src="image.jpg" alt="Image de Code">
+
+            <span class="projects__badge projects__badge--progress">
+            En cours
+            </span>
+        </div>
+
+        <div class="card__footer">
+            <button class="button button--primary button--small">
+            Détails
+            </button>
+        </div>
+        </div>
+    </div>
+    </section>
+
+
+    <footer id="contact" class="footer">
+    <p>© 2026 – John Doe</p>
+
+    <div class="footer__socials">
+        <button class="button button--secondary button--small">GitHub</button>
+        <button class="button button--secondary button--small">LinkedIn</button>
+    </div>
+    </footer>
+
+</body>
+</html>
